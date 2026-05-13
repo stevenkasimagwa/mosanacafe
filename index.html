@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mosana Cafe</title>
+    <!--Linking font-awesome for icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!--Linking style sheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Linking swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">Mosana Cafe</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+    <!-- Main -->
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Welcome to Mosana Cafe</h2>
+                    <h3 class="subtitle">Enjoy the best woodfired pizza</h3>
+                    <p class="description">Experience the perfect blend of quality coffee and delicious pastries in a
+                        cozy atmosphere.</p>
+                    <div class="buttons">
+                        <a href="#" class="button order-now">Order Now</a>
+                        <a href="#" class="button contact-us">Contact Us</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="images/hero.png" alt="Wood Fried Pizza" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="images/about-image.jpg" alt="About-image" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="text">At Mosana Cafe, we are passionate about serving the finest coffee and
+                        delectable pastries. Our mission is to create a welcoming space where you can relax, connect,
+                        and enjoy the best flavors in town. Whether you're looking for a quick caffeine fix or a cozy
+                        spot to unwind, we've got you covered.</p>
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section class="menu-section" id="menu">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="images/menu-item1.png" alt="Beverages" class="menu-image">
+                        <h3 class="name">Beverages</h3>
+                        <p class="text">
+                            Resfreshing and flavorful beverages, including our signature coffee blends, teas, and specialty drinks.
+                            </p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/menu-item2.png" alt="Pizza" class="menu-image">
+                        <h3 class="name">Pizza</h3>
+                        <p class="text">
+                            Our wood-fired pizzas are made with fresh ingredients and a crispy crust, offering a delicious and satisfying meal.
+                        </p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/menu-item3.png" alt="Margherita Pizza" class="menu-image">
+                        <h3 class="name">Margherita Pizza</h3>
+                        <p class="text">
+                            A classic pizza topped with fresh tomatoes, mozzarella cheese, basil leaves, and a drizzle of olive oil.
+                        </p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/menu-item4.png" alt="Wood-Fired Pizza" class="menu-image">
+                        <h3 class="name">Wood-Fired Pizza</h3>
+                        <p class="text">
+                            Fire up your taste buds with our wood-fired pizza, featuring a smoky flavor and a perfectly charred crust, topped with your choice of fresh ingredients.
+                        </p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/menu-item5.png" alt="Coca Cola" class="menu-image">
+                        <h3 class="name">Coca Cola</h3>
+                        <p class="text">
+                            A refreshing beverage that pairs perfectly with any meal.
+                        </p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/menu-item6.png" alt="Burger" class="menu-image">
+                        <h3 class="name">Burger</h3>
+                        <p class="text">
+                            A juicy beef patty topped with fresh lettuce, tomato, and our special sauce, served on a
+                            toasted bun.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-section" id="testimonials">
+            <h2 class="section-title">Testimonials </h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="testimonials-list swiper-wrapper">
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user 1.jpg" alt="testmonial-image" class="user-image">
+                                <h3 class="name">James</h3>
+                                <i class="feedback">"Loved the pizza, will order again."</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user 2.jpg" alt="testmonial-image" class="user-image">
+                                <h3 class="name">Elijah</h3>
+                                <i class="feedback">"The burgers are amazing!"</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user 3.jpg" alt="testmonial-image" class="user-image">
+                                <h3 class="name">Richard</h3>
+                                <i class="feedback">"The service was excellent!"</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user 4.jpg" alt="testmonial-image" class="user-image">
+                                <h3 class="name">Rodgers</h3>
+                                <i class="feedback">"The food was delicious!"</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user 5.jpg" alt="testmonial-image" class="user-image">
+                                <h3 class="name">Joseph</h3>
+                                <i class="feedback">"The atmosphere is great!"</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user 6.jpg" alt="testmonial-image" class="user-image">
+                                <h3 class="name">Musa</h3>
+                                <i class="feedback">"I love the burgers here!"</i>
+                            </li>
+                        </ul>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery-section" id="gallery">
+            <h2 class="section-title">Gallery</h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="images/gallery-image1.jpg" alt="Gallery Image" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-image2.jpg" alt="Gallery Image" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-image3.jpg" alt="Gallery Image" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-image4.jpg" alt="Gallery Image" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-image5.webp" alt="Gallery Image" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-image6.jpg" alt="Gallery Image" class="gallery-image">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p>Kabalagala Ggaba Road</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>Mosanacafe@gmail.com</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+256 700 123 456</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Monday - Friday: 9:00 AM - 10:00 PM</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Saturday - Sunday: 10:00 AM - 8:00 PM</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-globe"></i>
+                        <p>www.mosanacafe.com</p>
+                    </li>
+                </ul>
+
+                <form action="#" class="contact-form">
+                    <input type="text" placeholder="Your name" class="form-input" required>
+                    <input type="email" placeholder="Your email" class="form-input" required>
+                    <textarea placeholder="Your Message" class="form-input" required></textarea>
+                    <button class="button submit-button">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text"> 2024 Mosana Cafe</p>
+                <div class="social-link-list">
+                    <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <p class="policy-text">
+                    <a href="#" class="policy-link">Privacy Policy</a>
+                    <span class="separator">•</span>
+                    <a href="#" class="policy-link">Refund Policy</a>
+                </p>
+            </div>
+        </footer>
+
+    </main>
+
+
+    <!--Linking swiper script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <!--Linking normal js-->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
